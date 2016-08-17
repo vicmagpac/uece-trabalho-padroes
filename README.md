@@ -2,6 +2,9 @@
 
 Equipe
 
+
 Igor Ronner
+
 Edgar Peres
+
 Victor Magalhães
