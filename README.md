@@ -1,10 +1,8 @@
 # uece-trabalho-padroes
 
-Equipe
+** Equipe **
 
 
-Igor Ronner
-
-Edgar Peres
-
-Victor Magalhães
+- Igor Ronner
+- Edgar Peres
+- Victor Magalhães
