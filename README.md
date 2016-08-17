@@ -1,6 +1,6 @@
 # uece-trabalho-padroes
 
-** Equipe **
+**Equipe**
 
 
 - Igor Ronner
