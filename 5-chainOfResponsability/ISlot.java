@@ -1,6 +1,6 @@
 
 interface ISlot {
-	public String captura(Produto produto, Moeda moeda); 
+	public String captura(Moeda moeda); 
 
 	public void setProximo(ISlot proximo);
 }

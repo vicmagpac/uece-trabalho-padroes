@@ -1,4 +1,3 @@
-package com.engsw.igor.trabalhoengsw.decorator;
 
 /**
  * Created by Igor on 15/08/2016.
