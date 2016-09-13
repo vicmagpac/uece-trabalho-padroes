@@ -1,15 +1,23 @@
+package com.engsw.igor.trabalhoengsw.factoryMethod;
 
-public class ImagemJPG implements IImagem {
-	public void carregar() {
-		System.out.println("Imagem JPG:");
-		System.out.println("Carregando imagem JPG...");
-	}
+/**
+ * Created by Igor on 15/08/2016.
+ */
+public class ImagemJPG implements Imagem {
 
-	public void exibir() {
-		System.out.println("Exibindo imagem por 5 segundos");
-	}
+    @Override
+    public void exibir() {
+        System.out.println("Exibindo imagem por 20 segundos");
+    }
 
-	public void fechar() {
-		System.out.println("Fechando imagem\n");
-	}
+    @Override
+    public void carregar() {
+        System.out.println("Imagem JPG:");
+        System.out.println("Carregando imagem JPG...");
+    }
+
+    @Override
+    public void fechar() {
+        System.out.println("Fechando imagem");
+    }
 }

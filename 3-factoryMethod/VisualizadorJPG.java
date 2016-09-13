@@ -1,8 +1,15 @@
+package com.engsw.igor.trabalhoengsw.factoryMethod;
 
-public class VisualizadorJPG implements IVisualizador {
+/**
+ * Created by Igor on 15/08/2016.
+ */
+public class VisualizadorJPG implements Visualizador{
 
-	public IImagem visualizar() {
-		return new ImagemJPG();
-	}
-
+    @Override
+    public void visualizar() {
+        ImagemJPG imagemJPG = new ImagemJPG();
+        imagemJPG.carregar();
+        imagemJPG.exibir();
+        imagemJPG.fechar();
+    }
 }
