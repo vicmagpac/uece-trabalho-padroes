@@ -6,12 +6,13 @@ class Slot1 implements ISlot {
 		this.proximoSlot = proximoSlot;
 	}
 
-	public String captura(Produto produto, Moeda moeda) {
-		if (moeda.getValor() >= produto.getValor()) {
-			double troco = moeda.getValor() - produto.getValor();
-			return produto.getNome() + " - R$ " +  produto.getValor() + "\n Troco - " + troco;
+	public String captura(Moeda moeda) {
+		double valorChips = 5;
+		if (moeda.getValor() >= valorChips) {
+			double troco = moeda.getValor() - valorChips;
+			return "CHIPS - R$ " +  valorChips + "\n Troco - " + troco;
 		} else {
-			return this.proximoSlot.captura(produto, moeda);
+			return this.proximoSlot.captura(moeda);
 		}
 	}
 }

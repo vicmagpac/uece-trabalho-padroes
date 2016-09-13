@@ -6,7 +6,7 @@ class SlotVazio implements ISlot {
 		// não implementar
 	}
 
-	public String captura(Produto produto, Moeda moeda) {
+	public String captura(Moeda moeda) {
 		return "Valor insuficiente \n Troco - " + moeda.getValor();	
 	}
 }
