@@ -1,4 +1,3 @@
-package com.engsw.igor.trabalhoengsw.memento;
 
 import java.util.ArrayList;
 

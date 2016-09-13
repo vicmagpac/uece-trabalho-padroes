@@ -1,4 +1,3 @@
-package com.engsw.igor.trabalhoengsw.iterator;
 
 import java.util.ArrayList;
 import java.util.Random;

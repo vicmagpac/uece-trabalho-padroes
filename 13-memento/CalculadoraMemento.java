@@ -1,4 +1,3 @@
-package com.engsw.igor.trabalhoengsw.memento;
 
 public class CalculadoraMemento {
 	protected int estadoResultado;

@@ -1,15 +1,3 @@
-package com.engsw.igor.trabalhoengsw.builder;
-
-import com.engsw.igor.trabalhoengsw.builder.builders.BatataGrandeBuilder;
-import com.engsw.igor.trabalhoengsw.builder.builders.BatataMediaBuilder;
-import com.engsw.igor.trabalhoengsw.builder.builders.BatataPequenaBuilder;
-import com.engsw.igor.trabalhoengsw.builder.builders.BonequinhaBuilder;
-import com.engsw.igor.trabalhoengsw.builder.builders.CarrinhoBuilder;
-import com.engsw.igor.trabalhoengsw.builder.builders.CheeseburgerBuilder;
-import com.engsw.igor.trabalhoengsw.builder.builders.CocaBuilder;
-import com.engsw.igor.trabalhoengsw.builder.builders.GuaranaBuilder;
-import com.engsw.igor.trabalhoengsw.builder.builders.HanburguerBuilder;
-import com.engsw.igor.trabalhoengsw.builder.builders.LancheBuilder;
 
 import java.io.BufferedReader;
 import java.io.Console;
@@ -18,9 +6,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/**
- * Created by Igor on 10/09/2016.
- */
 public class Atendente {
 
     public ArrayList<ItemProduct> pedido = new ArrayList<>();

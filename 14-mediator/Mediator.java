@@ -1,4 +1,3 @@
-package com.engsw.igor.trabalhoengsw.mediator;
 
 public interface Mediator {
 

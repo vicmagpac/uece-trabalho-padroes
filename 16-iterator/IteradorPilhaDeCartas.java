@@ -1,4 +1,3 @@
-package com.engsw.igor.trabalhoengsw.iterator;
 
 public class IteradorPilhaDeCartas implements IteradorInterface{
 

@@ -1,4 +1,3 @@
-package com.engsw.igor.trabalhoengsw.mediator;
 
 import java.util.ArrayList;
 

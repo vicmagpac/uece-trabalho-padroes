@@ -1,4 +1,3 @@
-package com.engsw.igor.trabalhoengsw.mediator;
 
 public abstract class AlunoColleague extends Colleague{
 	protected Mediator mediator;
